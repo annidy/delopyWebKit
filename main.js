@@ -30,7 +30,7 @@ function safeCopy(dstfra) {
     try {
         fs.statSync(srcfra)
     } catch (error) {
-        console.log(error);
+        console.log(srcfra, 'not exist');
         return
     }
 

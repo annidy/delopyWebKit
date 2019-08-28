@@ -4,5 +4,5 @@
 
 Usage:
 ```
-sudo node deplopyWebKit 'YOUR BUILD DIR'
+sudo node main.js 'YOUR BUILD DIR'
 ```
